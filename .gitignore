@@ -1,0 +1,16 @@
+# Ignore environment files with secrets
+.env
+
+# Java/Maven build outputs
+backend/target/
+
+# Node/npm build outputs
+frontend/node_modules/
+frontend/dist/
+
+# VS Code local settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

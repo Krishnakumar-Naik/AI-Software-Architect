@@ -1,0 +1,28 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ai-software-architect-backend
+  ai:
+    google:
+      genai:
+        api-key: ${GEMINI_API_KEY:}
+        chat:
+          options:
+            model: gemini-2.0-flash
+  security:
+    jwt:
+      secret: ${JWT_SECRET:dGhpcy1pcy1hLXNlY3VyZS1kZWZhdWx0LXNlY3JldC1rZXktZm9yLWFpLXNvZnR3YXJlLWFyY2hpdGVjdC1iYWNrZW5kLXByb2plY3Q=}
+      expiration: 86400000 # 24 hours in milliseconds
+      cookie-name: jwt-token
+      cookie-secure: ${JWT_COOKIE_SECURE:false}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+  endpoint:
+    health:
+      show-details: always
+
