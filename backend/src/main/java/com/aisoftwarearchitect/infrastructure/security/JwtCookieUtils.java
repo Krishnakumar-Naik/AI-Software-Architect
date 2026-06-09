@@ -33,7 +33,7 @@ public class JwtCookieUtils {
                 .maxAge(jwtExpirationMs / 1000)
                 .httpOnly(true)
                 .secure(jwtCookieSecure)
-                .sameSite("Lax")
+                .sameSite("None")
                 .build();
     }
 
@@ -43,7 +43,7 @@ public class JwtCookieUtils {
                 .maxAge(0)
                 .httpOnly(true)
                 .secure(jwtCookieSecure)
-                .sameSite("Lax")
+                .sameSite("None")
                 .build();
     }
 }
