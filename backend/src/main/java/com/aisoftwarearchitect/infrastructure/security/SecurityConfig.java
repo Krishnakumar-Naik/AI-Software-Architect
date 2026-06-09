@@ -78,7 +78,7 @@ public class SecurityConfig {
             "http://localhost",
             "http://localhost:5173",
             "http://127.0.0.1:5173",
-            "https://ai-software-architect-chi.vercel.app"
+            "https://ai-software-architect-g4u786r2c-krishnaknaik25-6874s-projects.vercel.app"
         ));
         configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         configuration.setAllowedHeaders(Arrays.asList("Authorization", "Content-Type", "Accept"));
