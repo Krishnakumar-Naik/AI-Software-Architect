@@ -1,6 +1,7 @@
 # AI Software Architect - Full Codebase Visualization & Audit Platform
 
-AI Software Architect is an interactive codebase parsing, architecture visualization, and documentation platform. Map directory structures, detect MVC layering violations, generate PDF documentation suites, and chat with a context-grounded Gemini assistant about code design.
+AI Software Architect is an interactive codebase parsing, architecture visualization, and documentation platform.
+Map directory structures, detect MVC layering violations, generate PDF documentation suites, and chat with a context-grounded Gemini assistant about code design.
 
 ---
 
